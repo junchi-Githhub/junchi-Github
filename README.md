@@ -1,80 +1,77 @@
 # Hi, I'm Junchi Yan 👋
 
-🎓 **M.E. Graduate Student | University of Virginia**
+🎓 M.E. Graduate Student in Electrical Engineering | University of Virginia  
+⚡ Power Electronics | Motor Drives | Electrical Hardware | Electrical System Integration
 
-⚡ **Electrical Engineering | Power Electronics | Robotics | Embedded Systems | Machine Learning**
+---
 
 ## About Me
 
-I'm a graduate student in Mechanical Engineering at the University of Virginia, with an undergraduate background in Electrical Engineering.
+I'm a graduate student in Electrical Engineering at the University of Virginia (2025–2026), with a B.Eng. in Electrical Engineering and Automation from Shenyang University of Technology.
 
-My technical experience focuses on electrical hardware design, motor drive systems, power electronics, embedded controllers, and system integration.
+My hands-on experience is in **electrical hardware**: motor controller PCB design, current sensing and protection circuits, board-level testing, and industrial electrical control cabinets with variable frequency drives (VFDs). I've spent 12 months in a motor controller R&D team and a summer in an electrical cabinet manufacturing and commissioning team, so I've seen hardware from schematic and layout through assembly, testing, and delivery.
 
-I have worked on motor controller hardware, including power and driver boards, current sensing circuits, and overcurrent protection. I also have experience with DSP-based interfaces, such as PWM, ADC, CAN, and RS485, as well as circuit simulation, PCB design, and hardware testing.
+At UVA, I've added analog IC design (TSMC 180nm) and control-oriented coursework to that foundation.
 
-During my graduate studies, I have expanded my knowledge of machine learning, control systems, and AI hardware. I'm particularly interested in connecting intelligent algorithms with real-world hardware systems.
+---
 
-## Technical Skills & Experience
+## Experience Highlights
 
-**Electrical & Hardware Engineering**
-- PCB design and analog circuit design
-- Power electronics and motor drive hardware
-- Current sensing and protection circuits
-- Power supply simulation and circuit optimization
+### ⚙️ Motor Controller R&D Intern — Beijing, China
+*Sep 2024 – Aug 2026 (12 months in two phases)*
 
-**Embedded Systems & Control**
-- DSP-based controller interfaces
-- PWM, ADC, GPIO, CAN, and RS485
-- MATLAB/Simulink modeling and simulation
-- PLC control and electrical system integration
+- Contributed to a **12 kW motor controller**: drew the power board and driver board in Altium Designer, selected **80+ component footprints**, and routed layouts with EMI performance in mind.
+- Assembled, soldered, and functionally tested **2 types of circuit boards**.
+- Helped improve the **current-sensor signal conditioning circuit**: a single-supply op-amp stage amplifies the AC output-current signal and feeds an overcurrent threshold detector.
+- Supported hardware-side bring-up of the control board: ran electrical-characteristic tests on **5 interface types** (GPIO, PWM, ADC, CAN, RS485) and improved the test fixture to speed up port testing.
+- Built a Simulink model for a newly added module and used its generated C code as part of the verification workflow.
 
-**Machine Learning & Robotics**
-- Python and machine learning fundamentals
-- Robotic data collection and system integration
-- Edge AI and resource-constrained model deployment
-- Hardware testing and model validation
+### 🏭 Electrical Control Systems Intern — Beijing, China
+*May 2026 – Aug 2026*
 
-**Engineering Tools**
-- MATLAB / Simulink
-- Python
-- LTspice
-- TSMC 180nm PDK
-- Git / GitHub
+- Followed the full manufacturing flow of industrial electrical control cabinets: design, production, commissioning, and quality control.
+- Learned VFD speed-control schemes across **4 types of equipment** (pumps, fans, etc.); took part in component selection (**10+ components**), cabinet installation, and tuning of **20+ parameters**.
+- On a lithium-battery powder classification system, did wiring verification for an ABB drive and low-voltage distribution components, and helped with PLC program debugging and continuity testing across **8 I/O points**.
+- On a peanut-oil pressing line, completed cabinet assembly checks and factory commissioning, independently configured the basic parameters of multiple **ACS580 drives** (V/F mode, acceleration/deceleration time, overload protection), and helped commission **dozens of custom cabinets** for delivery.
 
-## Project Experience
+---
 
-### Motor Controller Hardware
-Participated in the PCB design and testing of a 12 kW motor controller, including power boards, gate driver circuits, current sensing, and protection functions. Worked with DSP interfaces and hardware testing.
+## Projects
 
-### Power Electronics & Circuit Simulation
-Designed and simulated a closed-loop power supply using optocoupler feedback and TL431 regulation. Verified dual-output performance under different load conditions.
+### 📡 High-Bandwidth Transimpedance Amplifier (TIA) — UVA, 2026
+Designed a **5 kΩ transimpedance gain TIA** in **TSMC 180nm CMOS** targeting **250 MHz bandwidth** for optical receiver front ends.
 
-### Analog IC Design
-Developed and simulated transistor-level analog circuits using TSMC 180nm technology. Investigated bandwidth enhancement techniques, including cascode configurations and inductive peaking.
+- Quantified the Miller effect: computed equivalent input capacitance and dominant-pole frequency.
+- Added a **cascode topology** and **inductive peaking**, and evaluated how much bandwidth each contributes.
+- **Result:** reached the 250 MHz target at 5 kΩ gain; delivered a complete transistor-level design using the PDK.
 
-### Robotics & Machine Learning
-Participated in robotic arm data collection and explored machine learning applications for embedded and resource-constrained hardware systems.
+### 🔌 Dual-Output Flyback Power Supply — Overseas Power Electronics Program, 2023
+Led a team in designing a flyback supply: **220 V AC input → 5 V/2 A and 9 V/2.22 A outputs**.
+
+- Closed-loop regulation using optocoupler isolation feedback and a TL431 reference; duty cycle adjusted to hold output voltage across load changes.
+- Selected the core components and built and simulated the circuit in LTspice under multiple load conditions.
+- **Result:** both outputs met specs in simulation; the instructor recommended me for one of only 2 recommendation letters in the class. The related paper was published at **AMCCE 2023**.
+
+### 🔋 Cost Optimization of BLDC Motors for Power Tools — 2022–2023
+*Undergraduate innovation project lead; extended into my thesis*
+
+- Built a cost model covering copper, iron, and permanent magnet usage, and related **pole-arc coefficient to material cost** under efficiency constraints to find the best cost-performance parameters.
+- Led the team: set **5 milestones**, assigned work (cost survey, electromagnetic calculation, simulation), and presented at the final defense.
+- **Result:** ~15,000-word project report approved by the innovation competition; an ~8,000-word paper on pole-arc coefficient vs. motor cost, which later became the basis for my graduation project.
+
+---
 
 ## Areas of Interest
 
-I'm interested in two closely related engineering directions:
-
-**1. Power Electronics & Electrical Systems**
-- Motor drive systems and power converters
-- Renewable energy and energy storage systems
-- Electrical system design and integration
-- Power conversion and control hardware
-
-**2. Robotics & Intelligent Hardware**
-- Robotic controllers and actuator electronics
-- Embedded systems and hardware-software integration
-- Machine learning model deployment
-- Robotics system testing and model validation
+- Motor drives and power converters
+- Electrical hardware design: PCB, sensing, and protection circuits
+- Electrical system design, integration, and commissioning
+- Analog and power-oriented IC design
 
 ## Career Goals
 
-My goal is to combine my background in electrical hardware, motor drives, and embedded control with my graduate-level knowledge of machine learning.
+I'm looking for engineering roles in **power electronics, motor drive hardware, and electrical system integration**, where I can keep doing hands-on work: designing, building, testing, and debugging real hardware. I'm also curious about how electrical hardware supports newer fields such as robotics, but power and drive hardware is where my experience is.
 
-I'm particularly interested in engineering roles involving **robotics hardware, embedded systems, power electronics, intelligent system integration, and machine learning deployment and validation**.
+---
 
-I enjoy hands-on engineering, hardware development, simulation, and solving practical technical problems.
+📫 **Contact:** yan597030@gmail.com
